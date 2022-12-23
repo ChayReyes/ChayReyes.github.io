@@ -1,0 +1,25 @@
+body {
+    background-color: #333; /* Set the background color to a dark shade */
+    background-image:url( "Flag_of_Mexico.jpeg")
+    
+    
+  }
+  
+  h1 {
+    text-align: center; /* Center the heading text */
+    color: rgb(143, 6, 6); /* Set the text color to white */
+    background-color: rgb(86, 57, 57); /* Set the background color to red */
+    border: 10px solid rgb(68, 10, 10); /* Add a border */
+    display: flex; /* Make the textbox a flex container */
+    justify-content: center; /* Center the textbox horizontally */
+    padding: 10px;
+    
+    
+    
+  }
+  
+  iframe {
+    display: block; /* Make the video a block element */
+    margin: 0 auto; /* Center the video horizontally */
+  }
+  
