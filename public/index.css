@@ -11,12 +11,12 @@ nav {
   }
   
   li {
-    float: left;
+    float: middle;
   }
   
   li a {
     display: block;
-    color: white;
+    color: rgb(187, 184, 208);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -33,7 +33,7 @@ nav {
   
   .dropbtn {
     background-color: #333;
-    color: white;
+    color: rgb(32, 129, 168);
     padding: 14px 16px;
     font-size: 16px;
     border: none;
@@ -44,9 +44,9 @@ nav {
     display: none;
     position: absolute;
     z-index: 1;
-    background-color: #f9f9f9;
+    background-color: #b01818;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(184, 16, 16, 0.2);
   }
   
   .dropdown-content a {
@@ -57,7 +57,7 @@ nav {
   }
   
   .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #5e20c9;
   }
   
   .dropdown:hover .dropdown-content {
