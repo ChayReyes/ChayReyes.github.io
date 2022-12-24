@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Other head content -->
+    <link rel="stylesheet" type="text/css" href="locked.css">
+  </head>
+  <body>
+    <!-- Passcode form -->
+    <form id="passcode-form">
+      <label for="passcode">Enter passcode:</label>
+      <input type="password" id="passcode" name="passcode">
+      <button type="submit">Submit</button>
+    </form>
+    YOU WOULDVE THOUGHT GO CHECK THE SURPRISES FIRST AND GET THE PASSWORD FROM SURPRISE 3
+
+    <!-- Content to be protected -->
+    <div id="protected-content">
+      <!-- Content goes here -->
+      <a href="FINALSURPRISE.png" class=button>I LOVE YOU MERRY CHRISTMAS</a>
+    <script>
+      // Get the passcode form and the protected content element
+      const passcodeForm = document.getElementById('passcode-form');
+      const protectedContent = document.getElementById('protected-content');
+
+      // Set the initial state of the protected content to be hidden
+      protectedContent.style.display = 'none';
+
+      // Add a submit event listener to the passcode form
+      passcodeForm.addEventListener('submit', (event) => {
+        // Prevent the form from submitting
+        event.preventDefault();
+
+        // Get the passcode value
+        const passcode = passcodeForm.elements.passcode.value;
+
+        // Check if the passcode is correct
+        if (passcode === 'jessyloveschay') {
+          // Show the protected content
+          protectedContent.style.display = 'block';
+        } else {
+          // Display an error message
+          alert('Incorrect passcode');
+        }
+      });
+    </script>
+  </body>
+</html>
